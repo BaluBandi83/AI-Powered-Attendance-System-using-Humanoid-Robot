@@ -1,37 +1,19 @@
 👤🤖 AI-Powered Face Recognition Attendance System with Humanoid Robot 
 
-
-![image](https://github.com/user-attachments/assets/32bde8d9-32cd-4891-9365-29b93d617580)
-
-
 This project implements an AI-driven facial recognition system integrated with a humanoid robot that greets recognized individuals and logs their attendance. It uses computer vision (OpenCV, MediaPipe, face_recognition), speech synthesis (gTTS), servo-based gestures (AiNex SDK), and real-time logging (Excel via pandas). The robot not only identifies known faces but also greets them personally and records their entry into an Excel sheet.
 
 🚀 Features
 🎯 Real-time Face Detection and Recognition
 Detects and recognizes faces from a live video stream using MediaPipe and face_recognition.
 
-
-![image](https://github.com/user-attachments/assets/47a51563-10ea-4826-850a-fd80045bcae4)
-
-
-
-
 📊 Attendance Logging
 Logs recognized names with timestamps into an Excel sheet (.xlsx format) for attendance tracking.
-
-
-![excelop](https://github.com/user-attachments/assets/feec15c2-83cf-408a-9163-97dac1fe18bd)
-
-
 
 🗣️ Personalized Voice Greetings
 Uses gTTS to greet known individuals with a custom message and deletes the temporary audio file after playback.
 
 🤖 Humanoid Gestures
 Performs greeting gestures using the AiNex SDK and MotionManager for a more interactive experience.
-
-![image](https://github.com/user-attachments/assets/4892dc32-1904-4ad9-8a9a-60b831e45cd0)
-
 
 🧠 Face Memory
 Prevents repeated greetings in a single session by tracking already greeted individuals.
