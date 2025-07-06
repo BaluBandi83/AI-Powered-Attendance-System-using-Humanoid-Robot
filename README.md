@@ -11,8 +11,8 @@ This project implements an AI-driven facial recognition system integrated with a
 Detects and recognizes faces from a live video stream using MediaPipe and face_recognition.
 
 
+![image](https://github.com/user-attachments/assets/47a51563-10ea-4826-850a-fd80045bcae4)
 
-![image](https://github.com/user-attachments/assets/bca06fcd-e5a3-4fe2-996e-fe47e80741c8)
 
 
 
