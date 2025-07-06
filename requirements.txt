@@ -1,0 +1,6 @@
+opencv-python
+mediapipe
+face_recognition
+numpy
+pandas
+gTTS
