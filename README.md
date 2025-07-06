@@ -29,18 +29,6 @@ gTTS	Text-to-Speech for audio greetings
 AiNex SDK	Servo motor control for humanoid gestures
 cv2.VideoCapture	Webcam video input
 
-📁 File Structure
-bash
-Copy
-Edit
-├── main.py                      # Main script with face detection and control logic
-├── venky.jpeg                   # Sample known face
-├── baalu.jpeg
-├── naidu.jpeg
-├── suresh_sir.jpeg
-├── indhira_mam.jpeg
-├── face_recognition_log.xlsx    # Auto-generated attendance log
-⚙️ How It Works
 Face Encoding
 Loads and encodes predefined images of known individuals.
 
