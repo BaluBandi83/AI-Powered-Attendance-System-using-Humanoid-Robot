@@ -54,11 +54,11 @@ face_detection = mp_face_detection.FaceDetection(min_detection_confidence=0.5)
 
 # Load known faces and their encodings
 known_faces = [
-    {"name": "venky", "image": "venky.jpeg"},
-    {"name": "baalu", "image": "baalu.jpeg"},
-    {"name": "Naidu", "image": "naidu.jpeg"},
-    {"name": "Sureshsir", "image": "suresh_sir.jpeg"},
-    {"name": "Indhiramam", "image": "indhira_mam.jpeg"}
+    {"name": "justin", "image": "justin.jpeg"},
+    {"name": "tom", "image": "tom.jpeg"},
+    {"name": "sharukh", "image": "sharukh.jpeg"},
+    {"name": "deepika", "image": "deepika.jpeg"},
+    {"name": "pushpa", "image": "pushpa.jpeg"}       # you can add any number of persons 
 ]
 
 # Encode known faces
